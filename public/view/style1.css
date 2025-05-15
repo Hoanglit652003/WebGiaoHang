@@ -1,0 +1,130 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #fafbfc;
+    margin: 0;
+    color: #222;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    padding: 16px 32px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo img {
+    height: 40px;
+}
+.logo span {
+    color: #f60;
+    font-weight: 600;
+    font-size: 14px;
+}
+.search-bar {
+    display: flex;
+    gap: 8px;
+}
+.search-bar input {
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 200px;
+}
+.search-bar button {
+    background: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+main {
+    max-width: 900px;
+    margin: 32px auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px #0001;
+    padding: 32px;
+}
+.order-info {
+    display: flex;
+    gap: 32px;
+    margin-bottom: 24px;
+}
+.order-block {
+    flex: 1;
+    background: #f7f7f7;
+    border-radius: 6px;
+    padding: 18px 20px 10px 20px;
+    margin-bottom: 0;
+}
+.order-block h2 {
+    font-size: 17px;
+    color: #333;
+    margin: 0 0 12px 0;
+    font-weight: 600;
+}
+.info-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    font-size: 15px;
+}
+.info-row span {
+    color: #555;
+}
+.status.success {
+    background: #1976d2;
+    color: #fff;
+    padding: 3px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.qty {
+    color: #aaa;
+    font-size: 13px;
+    margin-left: 4px;
+}
+.order-history {
+    margin-top: 32px;
+}
+.order-history h2 {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+.order-history table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+}
+.order-history th, .order-history td {
+    border: 1px solid #eee;
+    padding: 10px 12px;
+    text-align: left;
+    font-size: 15px;
+}
+.order-history th {
+    background: #f7f7f7;
+    font-weight: 600;
+}
+.order-history a {
+    color: #1976d2;
+    text-decoration: underline;
+}
+@media (max-width: 800px) {
+    main {
+        padding: 10px;
+    }
+    .order-info {
+        flex-direction: column;
+        gap: 10px;
+    }
+}

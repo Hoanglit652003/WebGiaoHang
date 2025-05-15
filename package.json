@@ -1,0 +1,13 @@
+{
+  "name": "webgiaohang",
+  "version": "1.0.0",
+  "description": "",
+  "main": "admin/WebSocket.js",
+  "scripts": {
+    "start": "node admin/WebSocket.js"
+  },
+  "dependencies": {
+    "ws": "^8.16.0",
+    "axios": "^1.6.7"
+  }
+} 
